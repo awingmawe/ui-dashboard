@@ -1,0 +1,32 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react-jsx",
+    "baseUrl": "."
+    // "paths": {
+    //   "@layout/*": ["src/common/components/layout/*"],
+    //   "@icons/*": ["src/common/components/icons/*"],
+    //   "@modal/*": ["src/common/components/modal/*"],
+    //   "@ui/*": ["src/common/components/ui/*"],
+    //   "@constant/*": ["src/common/constant/*"],
+    //   "@store/*": ["src/common/store/*"],
+    //   "@styles/*": ["src/common/styles/*"],
+    //   "@utility/*": ["src/common/utility/*"],
+    //   "@config/*": ["src/common/config/*"]
+    // }
+  },
+  "include": ["**/*.ts", "**/*.tsx"]
+}
